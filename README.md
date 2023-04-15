@@ -1,10 +1,10 @@
 # HCMUS-Java-Servlet-JSP-Student-Management
 ## Chức năng
-1. Quản lý học sinh:
+*1. Quản lý học sinh:*
   Thêm / Sửa / Xóa
   Sắp xếp theo Tên / Khối
   Tìm kiếm theo tên
-2. Quản lý khóa học
+*2. Quản lý khóa học*
   Thêm / Sửa / Xóa
   Sắp xếp và tìm kiếm theo Tên
   Hiện danh sách học sinh của khóa học
