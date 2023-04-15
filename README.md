@@ -4,12 +4,15 @@
   Thêm / Sửa / Xóa
   Sắp xếp theo Tên / Khối
   Tìm kiếm theo tên
+  
 **2. Quản lý khóa học**
   Thêm / Sửa / Xóa
   Sắp xếp và tìm kiếm theo Tên
   Hiện danh sách học sinh của khóa học
   Thêm / Xóa học sinh trong khóa học
+  
 **3. Xuất danh sách khóa học của học sinh theo năm**
+
 **4. Xuất bảng điểm của học sinh theo năm**
 
 ## Công nghệ
