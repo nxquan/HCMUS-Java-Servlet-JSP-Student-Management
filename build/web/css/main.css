@@ -1,0 +1,218 @@
+
+.container-fluid {
+    max-width: 1600px;
+}
+
+.container {
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sidebar {
+    padding: 24px 0;
+    min-width: 240px;
+    max-width: 280px;
+
+    height: 100%;
+    /*background-color: #eef3ff;*/
+    background-image: linear-gradient(to top, #20329e, #3551de);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .user {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.sidebar .user-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.sidebar .user-name {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+.sidebar .controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.sidebar .sidetab-list {
+    border-top: 1px solid rgba(255, 255, 255, 0.7);
+    margin-top: 12px;
+}
+
+.sidebar .sidetab-link,
+.sidebar .setting-link {
+    display: block;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+.sidebar .sidetab-item,
+.sidebar .setting-item{
+    border-radius: 6px;
+}
+.sidebar .sidetab-item:hover,
+.sidebar .setting-item:hover{
+    cursor: pointer;
+    background: #596DD3;
+}
+
+.sidetab-icon {
+    margin-right: 8px;
+}
+
+.settings {
+    margin-top: 12px;
+    border-top: rgba(255, 255, 255, 0.7);
+}
+
+.content {
+    padding: 8px 12px;
+    flex: 1;
+    overflow: auto;
+}
+
+.content-inter {
+    width: 100%;
+}
+
+.content-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.content-item-heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 8px 0;
+    color: #2134a3;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    height: 30px;
+}
+.form-group + .form-group {
+    margin-left: 12px;
+}
+.form-group .form-label {
+    font-weight: 500;
+}
+
+.form-group .form-input {
+    padding: 4px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    display: block;
+    margin-left: 8px;
+    height: 100%;
+}
+
+.form-adding,
+.form-edit{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.add-btn, .search-btn, .reset-btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+    background: #596DD3;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    height: fit-content;
+}
+.add-btn:hover, .search-btn:hover, .reset-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.content-filter {
+    display: flex;
+}
+
+.content-table {
+    margin-top: 12px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    word-wrap: break-word;
+}
+
+.content-table th {
+    font-size: 1.6rem;
+}
+
+.content-table td {
+    font-size: 1.5rem;
+}
+tr{
+    height: 30px;
+}
+
+tr td:nth-child(2),
+tr td:nth-child(4),
+tr td:nth-child(5),
+tr td:nth-child(6) {
+    padding-left: 8px;
+}
+tr td:nth-child(1),
+tr td:nth-child(3),
+tr td:nth-child(7) {
+    text-align: center
+}
+
+.edit-btn, 
+.delete-btn, 
+.detail-btn{
+    padding: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.edit-btn i{
+    color: green;
+}
+.delete-btn i {
+    color: red;
+}
+.detail-btn {
+    color: blue;
+}
+
+.course-item + .course-item{
+    margin-top: 4px;
+}
+
+.course-heading {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.course-info {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #3551de;
+}
